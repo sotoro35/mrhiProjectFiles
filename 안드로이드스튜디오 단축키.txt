@@ -1,0 +1,17 @@
+xml
+컨+ / : 주석
+
+
+
+java
+컨 + d :코드 복붙 
+컨 + p : ( )안에 어떤값을 넣어야하는지 가이드를 보여줌
+알트+insert = 생성자 자동 생성
+
+
+
+https://won-percent.tistory.com/137
+
+
+비주얼 스튜디오코드 단축키
+https://blog.naver.com/yunscoding/222693153923

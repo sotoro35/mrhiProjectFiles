@@ -1,0 +1,47 @@
+Google playMarket APP 등록 준비사항
+
+1. playMarket 개발자 등록
+   1.1 구글 계정
+   1.2 마켓 개발자 등록
+         - 25$-카드결재만 가능(visa, master)
+
+    * 2단계 인증 : 이름, 주소가 함께 표시된 신분증명 사진 ( 카드명세서, 공과금고지서 or 신분증 사진 )
+   
+    * 신규 개발자는 20명의 테스터를 등록하고 비공개 테스트를 수행해야 앱을 프로덕션으로 출시할 수 있음.
+
+
+2. APP 업로드 준비
+   2.1    apk 파일(signed 서명된) / Android App Bundle(aab)  - proguard적용 안하여 경고표시됨.
+   2.2    icon Image(512*512*32bit     .png파일)
+   2.3    1024*500*24bit    포스터같은 Image
+   2.4    ScreenShot Image 최소2장~최대8장  / phone, 7', 10' tablet 용   각 2장씩 [같은 이미지 가능]
+
+
+
+  * proguard 적용 (코드 난독화)
+
+## build.gradle(앱모듈) ##########################################
+
+android {
+    buildTypes {
+        release {
+            minifyEnabled true
+
+            shrinkResources true
+
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),'proguard-rules.pro'
+        }
+    }
+    ...
+}
+
+###############################################################
+
+
+** 이미지 만들어주는 사이트 **
+미리캔버스(https://www.miricanvas.com/)
+
+** 개인정보보호 지침  만들어주는 사이트 **
+1. 개인정보보보포털 (공공 : https://www.privacy.go.kr/)
+2. 로폼(민간 : https://lawform.io/) - 회원가입필요 [편하게 만들 수 있음]
+

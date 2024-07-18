@@ -1,0 +1,7 @@
+
+Android Application 의 4대 구성요소[Component] - AndroidManifest.xml의 <application>태그안에 반드시 등록해야만 사용할 수 있는 주요 클래스들 ]
+
+1. Activity  - 화면 담당 클래스
+2. BroadcastReceiver - 디바이스의 특정 상태[문자수신, 배터리부족, 부팅완료, gps 상태정보 등등..]를 OS 에서 방송해주면 이를 수신할 때 사용
+3. Service - 빽그라운드(앱은 실행 중- 화면에서 안보이는)에서 코드를 동작하게 하고 싶을 때 사용. [ex. 뮤직플레이어 앱]
+4. Contents Provider - 다른앱에게 나의 DB 정보를 제공할 때 사용 - 여러분들이 거의 사용할 일이 없음.

@@ -1,0 +1,14 @@
+액티비티시작(액티비티가 만들어질때...
+onCreate - 뷰가 만들어지고 있음..
+onStart - 뷰가 다 만들어지고 클릭이 안되는 상태
+onResume - 뷰가 다 만들어지고 클릭이 되는 상태 = 화면에 완전히 보이는 상태
+onPause - 화면이 가려지는 상태 
+onStop - 화면이 가려지며 버튼이 눌리지 않는 상태 = onStart와 비슷한
+onDestroy - 화면이 완전히 꺼진상태 (뷰가 다 지워짐)
+
+액티비티의 생명주기 설명 링크
+https://8iggy.tistory.com/267
+
+
+프래그먼트의 생명주기 자세한 설명 링크
+https://readystory.tistory.com/199

@@ -1,0 +1,14 @@
+const url= '도서 상세경로 URL'
+fetch(url)
+.then(res=>res.text())
+.then(text=>{
+     // 읽어온 글씨를 DOM 모델로 만들기
+     const dom= new DOMParser()
+     const doc= dom.parseFromString(text, 'text/html')  //두번째 파라미터 : mimeType
+  // const es= doc.querySelectorAll('.bookBasicInfo_spec__yzTpy') // bookBasicInfo_spec__yzTpy라는 클래스 선택자를 이용하여 요소찾기
+  // alert( es[0].innerHTML )
+     const e= doc.querySelector('.bookBasicInfo_spec__yzTpy') // bookBasicInfo_spec__yzTpy라는 클래스 명이 한개라면.. 다중 찾기를 하지 않아도 됨. 만약, 여러개면 첫번째 요소가 찾아짐.
+     alert( e.innerHTML )
+})
+.catch(e=>alert(e.message))
+

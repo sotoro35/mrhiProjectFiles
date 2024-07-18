@@ -1,0 +1,4 @@
+테스트 계정 : bbb@bbb.bbb
+테스트 계정 비밀번호 : b123456
+Android GitHub : https://github.com/limjihoon1/LevelUpLife
+Web GitHub : https://github.com/limjihoon1/level-up-life2/tree/dev2

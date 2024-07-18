@@ -1,0 +1,32 @@
+1)
+!git clone https://github.com/tensorflow/examples
+
+2)
+%cd examples/tensorflow_examples/lite/model_maker/pip_package
+
+3)
+requirements.txt 문서 에서  tensorflow>=2.10.0 , scann==1.2.10  2개의 버전 변경
+
+4)
+!pip install -e .
+
+5)
+!sudo apt -y install libportaudio2
+
+6)
+import os
+
+import numpy as np
+
+import tensorflow as tf
+assert tf.__version__.startswith('2')
+
+from tflite_model_maker import model_spec
+from tflite_model_maker import image_classifier
+from tflite_model_maker.config import ExportFormat
+from tflite_model_maker.config import QuantizationConfig
+from tflite_model_maker.image_classifier import DataLoader
+
+
+
+

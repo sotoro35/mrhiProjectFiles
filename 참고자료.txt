@@ -1,0 +1,22 @@
+구조도...
+회원가입 - 닷홈, 파이어베스(아이디만)
+찜목록 - 닷홈
+
+게시물, 채팅 - 닷홈에서 계정을 가져와 파이어베이스에 새 계정을 생성하고 연결
+
+
+카카오맵 라벨 클릭시 확장효과.. 클릭이벤트
+https://devtalk.kakao.com/t/topic/103157
+
+카카오맵 라벨클릭리스너 -> 바텀시트 노출 
+
+
+게시글에 프라이머리키
+댓글 참고
+https://disquiet.io/@starsufers/makerlog/android-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
+
+https://velog.io/@eeheaven/AndroidStudio-SpringBoot-KnockKnock-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-0124-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EB%8C%93%EA%B8%80-%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84
+
+
+파이어베이스 사용법 링크
+https://velog.io/@choius323/Firestore

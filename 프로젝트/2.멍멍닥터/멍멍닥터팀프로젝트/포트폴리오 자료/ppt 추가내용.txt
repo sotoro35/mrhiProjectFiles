@@ -1,0 +1,25 @@
+라이브러리
+
+retrofit
+glide
+circleimageview
+converter.scalars
+converter.gson
+androidx.camera
+cropme
+material.calendarview
+
+API
+네이버
+카카오
+
+
+
+화면설명
+로그인화면
+서버에서 해당 유저의 정보와 비교하여 로그인을 합니다.
+카카오,네이버 간편로그인 기능을 추가했습니다.
+
+이 어플의 가장 메인기능화면
+1. 현재 선택된 반려견을 기준으로 관리를 할 수 있습니다.
+

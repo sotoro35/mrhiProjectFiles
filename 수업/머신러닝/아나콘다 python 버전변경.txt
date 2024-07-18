@@ -1,0 +1,26 @@
+1. Anaconda Prompt 실행
+
+2. 설치 가능 버전 확인
+ $  conda search python
+
+
+3. 원하는 버전 설치.
+ $ conda install python==3.9.18
+
+
+
+----------------------------------------
+ # numpy version 체크
+>>> import numpy
+>>> numpy.version.version
+
+ # numpy version 변경
+1. Anaconda Prompt 실행
+
+2. 설치 가능 버전 확인
+ $  conda search numpy
+
+
+3. 원하는 버전 설치.
+ $ conda install numpy==1.23.4
+

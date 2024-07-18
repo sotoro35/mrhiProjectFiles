@@ -1,0 +1,10 @@
+* 권한이 없어서 일어나는 에러
+
+> Windows Powershell을 관리자 권한으로 실행
+ $ Set-ExecutionPolicy RemoteSigned
+
+ 를 입력하고 Y
+
+
+* npx create-react-app hello    중 에러 발생하면.. 
+ $ npm install -g npm

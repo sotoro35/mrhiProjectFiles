@@ -1,0 +1,37 @@
+init 
+status
+add 추가하고(스테이지위에 올린다/ git이 추척하는 상태로 만듬)
+commit 저장하는거(저장할때 수정된 내용의 기록을 남겨야함)
+merge 병합,합본하는거 (메인(원본)을 바라보고잇는상태(체크드)에서 합본할 파일을 입력) 
+
+
+git restore 이름 - 마지막 커밋상태로 복구 (add하기전에만 가능)
+**스테이지(add)까지 올라온 상태면 바로 복구가 불가능..
+그래서 스테이지에서 내려야함... git restore --staged 이름 
+
+
+커밋까지 해버림... 근데 전으로 바꾸고 싶음...
+git reset -- soft HEAD~1 => 바로직전으로 복구.. 코드는 있고 커밋전.. add상태로
+git reset HEAD~1 => mixed상태 (add되기 전 상태... 스테이지에서 내려오는거)
+git reset --hard HEAD~1 => 1칸전으로 이동... 문서도 사라지기에 했던 정보가 사라짐
+
+roolback
+
+git log = 내가 기록한 내용을 볼 수 있음 (커밋한 수 만큼) 
+
+
+branch - 복사본을 만드는것
+git branch dev - 복사본이름 dev
+git checkout dev - 현재 git이 바라보고 있는 걸 dev로 바꿔라 
+
+
+vim 
+- i (insert모드)
+- esc버튼 (저장이나 끌때 )
+  - :wq (저장후 끄기)
+  - :q! (저장안하고 끄기)
+
+
+git clone 주소 => 깃에서 다운로드
+파일 - 설정
+버전 컨트롤 - 깃허브 - 플러스 
